@@ -1,8 +1,8 @@
 <?php
 
-    require "../../app_lista_tarefas/tarefas.php";
-    require "../../app_lista_tarefas/conexao.php";
-    require "../../app_lista_tarefas/tarefas.service.php";
+    require "app_lista_tarefas/tarefas.php";
+    require "app_lista_tarefas/conexao.php";
+    require "app_lista_tarefas/tarefas.service.php";
 
 
     $acao = isset( $_GET['acao']) ? $_GET['acao'] : $acao;
